@@ -76,7 +76,6 @@ py -3 agents/optimizer/runner.py --blocks data/blocks.gpkg --acc-mx data/acc_mx.
 - `.opencode/` — конфигурации, команды, скиллы и описания агентов для фреймворка OpenCode.
 - `agents/` — исходный код пайплайнов для генерации кварталов, транспорта и оптимизации (runner-скрипты, конфиги, requirements).
 - `data/` — рабочая папка (игнорируется в git), в которой должны лежать матрицы `acc_mx.pickle` и сохраняются выходные GeoPackage-файлы (`.gpkg`).
-- `auto_backup.ps1` — автоматический скрипт для сохранения бэкапов в репозиторий GitHub.
 
 ---
 
