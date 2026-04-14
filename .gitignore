@@ -1,0 +1,11 @@
+venv/
+cache/
+data/
+blocksnet-develop/
+*.csv
+.opencode/node_modules/
+__pycache__/
+*.pyc
+.ipynb_checkpoints/
+.env
+.DS_Store

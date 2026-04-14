@@ -1,0 +1,9 @@
+pipeline:
+  name: city_blocks_aggregation
+  version: 0.1
+  pipeline_dir: "./pipeline"
+output:
+  blocks_gpkg: "blocks.gpkg"
+logging:
+  level: INFO
+  format: "%(levelname)s: %(message)s"
